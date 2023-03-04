@@ -189,8 +189,8 @@ padding: 30px 30px 60px;
 font-size: 16px;
 font-family: Syne;
 color: #232323;
-width: 380px;
-height: 290px;
+width: 320px;
+height: 270px;
 }
 
 #about h2{
@@ -221,3 +221,79 @@ height: 290px;
 }
 
 /* about section end */
+
+
+/* advantages section start */
+
+
+#advantages{
+    display: flex;
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+    background-color: #ffffff;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    word-wrap: break-word;
+    
+}
+
+
+.advantages-left{
+    padding: 0px 60px 0px 128px;
+    font-size: 16px;
+    font-family: Syne sans-serif;
+    color: #232323;
+    width: 700px;
+    height: 451px;
+    margin-top: 70px;
+    
+
+    
+}
+
+.advantages-left h3{
+    font-size: 34px;
+    font-family: Syne sans-serif;
+    font-weight: bold;
+   margin-left: 180px;
+    line-height: 1;
+    color: #232323;
+    width: 60%;
+    font-style: normal;
+   
+  
+}
+
+.advantages-right img{
+    width: 450px;
+    min-width: 450px;
+    height: 450px;
+    margin-left: 32px;
+
+}
+
+.advantages-left h4{
+    margin-left: 180px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    
+}
+
+.advantages-left ul{
+    display: block;
+    margin-left: 180px;
+    
+    
+}
+
+.advantages-left ul li{
+    padding: 24px 0px;
+    font-size: 14px;
+    font-family: Syne sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+
+/* advantages section end */
