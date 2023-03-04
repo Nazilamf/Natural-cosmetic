@@ -125,7 +125,7 @@ nav{
     margin-top: 190px;
     margin-left: 30px;
     padding-left: 30px;
-    font-family: 'Syne', sans-serif;
+    font-family: Syne sans-serif;
     font-size: 2.9376rem;
     line-height: 1.1;
     word-break: break-word;
@@ -143,10 +143,10 @@ padding-bottom: 70px;
 
 }
 
-#slider button{
+#slider  button{
     width: 196px;
     height: 46px;
-    border: #c31616 2px solid;
+    border: #ff0000 2px solid;
     background-color:transparent;
     font-size: 16px;
     font-family: Syne sans-serif;
@@ -154,6 +154,13 @@ padding-bottom: 70px;
     margin-top: 30px;
     font-weight: 500;
 
+}
+
+
+#slider button:hover{
+    cursor: pointer;
+    background-color: #ff0000;
+    color: #ffffff;
 }
 
 /* slider section end */
@@ -195,7 +202,7 @@ height: 270px;
 
 #about h2{
     font-size: 40px;
-    font-family: syne Sans-serif;
+    font-family: 'syne' Sans-serif;
     text-align: center;
     color: #232323;
     margin-top: 50px;
@@ -204,7 +211,7 @@ height: 270px;
 }
 
 .card h3{
-    font-family: 'Syne', sans-serif;
+    font-family: Syne sans-serif;
     font-size: 1.0525rem;
     line-height: 1.5;
     color: #232323;
@@ -213,7 +220,7 @@ height: 270px;
 }
 
 .card p{
-    font-family: 'Syne', sans-serif;
+    font-family: Syne sans-serif;
     font-size: 1.0525rem;
     line-height: 1.5;
     color: #232323;
@@ -297,3 +304,130 @@ height: 270px;
 
 
 /* advantages section end */
+
+
+/* must-know section start */
+
+
+.must-know{
+    padding: 12.5rem 0;
+    background: #f2f2f2;
+    border-radius: 0;
+    width: 1000px;
+    height: 90px;
+    margin-left: 183px;
+    font-family: Syne sans-serif;
+    font-size: 16px;
+
+}
+
+
+.must-know h2{
+    font-family: Syne sans-serif;
+    font-size: 2rem;
+    line-height: 1.1;
+    text-align: center;
+    color: #232323;
+
+}
+
+.must-know h3{
+    font-family: Syne sans-serif;
+    font-size: 2rem;
+    line-height: 1.1;
+    text-align: center;
+    color: #232323;
+}
+
+.must-know h4{
+    line-height: 1;
+    word-break: break-word;
+    word-wrap: break-word;
+    font-size: 0.8rem;
+    font-family: Syne sans-serif;
+    text-align: center;
+    color:  #626262;
+    margin-top: 16px;
+
+}
+
+.must-know h4:hover{
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+}
+
+
+/* must-know section end */
+
+/* body-oil section start */
+
+.body-oil{
+    display: flex;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #ffffff;
+    font-style: normal;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #232323;
+    margin-left: 183px;
+}
+
+.body-oil-image img{
+    width:500px ;
+    height: 500px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-oil-info h2{
+    font-size: 34px;
+    font-family: Syne sans-serif;
+    font-weight: bold;
+    line-height: 1;
+    color: #232323;
+    width: 369px;
+    height: 160px;
+    margin-left: 60px;
+
+}
+
+.body-oil-info h3{
+  font-size: 18px;
+  color: #626262;
+  margin-left: 60px;
+  margin-top: -50px;
+}
+
+.body-oil-info p{
+    font-family: Syne sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #232323;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    width: 461px;
+}
+
+.body-oil-info button{
+    width: 160px;
+    height: 40px;
+    border: #ff0000 2px solid;
+    background-color:transparent;
+    font-size: 16px;
+    font-family: Syne sans-serif;
+    margin-left: 60px;
+    margin-top: 10px;
+    font-weight: 500;
+
+}
+
+.body-oil-info button:hover{
+    background-color: #ff0000;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+/* body-oil section end */
