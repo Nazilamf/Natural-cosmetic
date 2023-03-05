@@ -701,3 +701,81 @@ padding: 10px;
 }
 
 /* recommended section end */
+
+/* contact section start */
+.contact{
+    display: flex;
+    font-size: 16px;
+    font-family: Syne;
+    background-color: #ffffff;
+    padding: 80px 0px;
+    margin-left: 151px;
+}
+
+.contact-left h2{
+    font-family: 'Syne', sans-serif;
+    font-size: 1.575rem;
+    line-height: 1.1;
+    color: #000;
+}
+
+.contact-left h3{
+    font-size:18px ;
+    color: #626262;
+    margin: 0px 0px 8px;
+    padding: 10px 0px 0px;
+}
+
+.contact-info ul{
+    display:inline-block;
+}
+
+.contact-info li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 12.84px;
+
+}
+.contact-info li a:hover{
+    color: #ff0000;
+    cursor: pointer;
+}
+
+.contact-right input{
+    width: 250px;
+    height: 45px;
+    padding: 25px 30px;
+    margin-right: -5px;
+    margin-bottom: -5px;
+
+}
+
+.contact-right textarea{
+    width: 498px;
+    height: 70px;
+    padding: 25px 30px;
+}
+
+.contact-right button{
+    width: 160px;
+    height: 40px;
+    border: #ff0000 2px solid;
+    background-color:transparent;
+    font-size: 12px;
+    font-family: Syne sans-serif;
+    margin-left: 0px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.contact-right button:hover{
+    background-color: #ff0000;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.contact-right{
+    margin-left: 140px;
+}
+
+/* contact section end */
