@@ -99,6 +99,10 @@ nav{
 
 
 }
+body{
+    font-family: Syne sans-serif;
+    font-size: 16px;
+}
 
 #slider .left-part{
    background-image: url(../image/background9.jpg);
@@ -533,6 +537,7 @@ height: 270px;
     font-size: 16px;
     font-family: Syne sans-serif;
     
+    
 }
 
 
@@ -582,3 +587,45 @@ height: 270px;
     cursor: pointer;
     color: #ffffff;
 }
+
+
+/* #care-section end */
+
+/* bestsellers section start */
+
+.best-products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.best-product img{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+#bestsellers h2{
+    font-family: 'Syne', sans-serif;
+    font-size: 2.7376rem;
+    line-height: 1.1;
+    color: #000;
+    width: 574px;
+    height: 103px;
+    margin-left: 449px;
+    margin-top: 130px;
+    margin-bottom: 70px;
+}
+
+.best-product-content{
+    text-align: center;
+    position: absolute;
+    margin-left: 112px;
+    margin-top: -108px;
+    text-align: center;
+}
+
+
+
+
